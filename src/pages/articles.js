@@ -5,7 +5,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
 import article1 from "../../public/images/articles/articlelink.jpg";
-import article2 from "../../public/images/articles/create loading screen in react js.jpg";
+import article2 from "../../public/images/projects/CryptoLane.png";
 import {easeInOut, motion, useMotionValue} from "framer-motion";
 import article3 from "../../public/images/projects/CryptoLane.png";
 import article4 from "../../public/images/projects/game.jpg";

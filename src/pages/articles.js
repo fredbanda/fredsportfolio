@@ -7,10 +7,10 @@ import Image from "next/image";
 import article1 from "../../public/images/articles/articlelink.jpg";
 import article2 from "../../public/images/articles/create loading screen in react js.jpg";
 import {easeInOut, motion, useMotionValue} from "framer-motion";
-import article3 from "../../public/images/articles/create modal component in react using react portals.png";
-import article4 from "../../public/images/articles/pagination component in reactjs.jpg";
-import article5 from "../../public/images/articles/What is Redux with easy explanation.png";
-import article6 from "../../public/images/articles/todo list app built using react redux and framer motion.png";
+import article3 from "../../public/images/projects/CryptoLane.png";
+import article4 from "../../public/images/projects/game.jpg";
+import article5 from "../../public/images/projects/youtubelearn.jpg";
+import article6 from "../../public/images/projects/domman.jpg";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image) 

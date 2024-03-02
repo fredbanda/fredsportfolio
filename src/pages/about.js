@@ -53,20 +53,13 @@ const About = () => {
         <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
           <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">Biography</h2>
           <p className="font-medium">
-          Im a dynamic full-stack web developer and UI/UX designer with extensive 
-          experience. Ive leveraged Ruby on Rails, React, Next.js, HTML, CSS, 
-          and JavaScript to create stunning, responsive web applications that captivate users.
+          Experienced Full Stack Principal Developer with a rich history at The First Pitch Group since 2013. Proficient in a multitude of stacks including MERN, MEAN, MEVN, Serverless, LAMP, PERN, and Ruby on Rails.
           </p>
           <p className=" my-4 font-medium">
-          My expertise extends to Python, Angular, and databases like MongoDB, PostgreSQL, 
-          and MySQL. This versatility empowers me to build robust, scalable back-end systems, 
-          ensuring seamless data management and application functionality.
+          Over 9 years of mastery in ASP.NET Core, Blazor, ASP.NET Web API, complemented by a decade of expertise in Java, Springboot, Python (Django, Flask). Adept in crafting user-friendly applications with a keen focus on both server and serverless architectures. Extensive database experience encompassing SQL (MySQL, Postgres) and NoSQL (MongoDB).
           </p>
           <p className="font-medium">
-          My design prowess shines through with Figma, Sketch, and Adobe XD, allowing me 
-          to craft pixel-perfect, user-centric interfaces. Git ensures version control, 
-          guaranteeing a collaborative and organized development process. My portfolio 
-          speaks volumes about my skill and dedication.
+          Recent passion for GraphQL and Apollo, leveraging their versatility and precision in queries. A lifelong learner, committed to personal development, and actively contributing to open source communities on platforms like StackOverflow and GitHub. Proven track record of successful mentorship and training initiatives. Ready to bring my diverse skill set and innovative mindset to drive web development excellence for your organization.
           </p>
         </div>
 

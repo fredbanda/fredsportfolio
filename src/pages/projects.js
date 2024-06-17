@@ -11,6 +11,8 @@ import project3 from "../../public/images/projects/youtubelearn.jpg";
 import project4 from "../../public/images/projects/game.jpg";
 import project5 from "../../public/images/projects/random.jpg";
 import project6 from "../../public/images/projects/domman.jpg";
+import eunnyai from "../../public/images/projects/eunnyai.jpg";
+import EunnyTech from "../../public/images/projects/eunnytech.jpg";
 import {motion} from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -125,6 +127,46 @@ const Projects = () => {
             />
 
             <div className="grid grid-cols-12 gap-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+                <div className="col-span-12">
+                   <FeaturedProject
+                   title="EunnyAI: Starts With Your Image"
+                   img={eunnyai}
+                   summary="
+                   Introducing our revolutionary app! Harnessing cutting-edge AI technology, it effortlessly removes backgrounds, performs generative fills, eliminates unwanted elements, and even recolors images with just a few taps. Say goodbye to tedious editing – unleash your creativity with our all-in-one image manipulation powerhouse
+                   "
+                   link="https://eunnyai.vercel.app/"
+                   github="https://github.com/fredbanda/eunnyai.git"
+                   type="Featured Project"
+                   />
+                </div>
+                <div className="col-span-6 sm:col-span-12">
+                <Project
+                   title="A Workshop Ticket App"
+                   img={EunnyTech}
+                   summary="
+                   Embark on a journey of entrepreneurial excellence with our Artisan Workshop Ticketing App! Seamlessly manage and book business workshops tailored for artisans. Streamline ticketing, connect with experts, and empower your craft. Elevate your skills effortlessly – the ultimate platform for artisans to thrive and succeed!
+                   "
+                   link="https://eunnytech.onrender.com/"
+                   github="https://github.com/fredbanda/eunnytech.git"
+                   type="Project"
+                   />
+                </div>
+                <div className="col-span-6 sm:col-span-12">                
+                <Project
+                   title="Let's Hunt the Ace"
+                   img={EunnyTech}
+                   summary="
+                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                   Lorem Ipsum has been the industry's standard dummy text ever since the 
+                   1500s, when an unknown printer took a galley of type and scrambled it 
+                   to make a type specimen book. It has survived not only five centuries, 
+                   but also the leap into electronic
+                   "
+                   link="https://matchingace.netlify.app/"
+                   github="https://github.com/fredbanda/acematching.git"
+                   type="Project"
+                   />
+                </div>
                 <div className="col-span-12">
                    <FeaturedProject
                    title="JetSetters Do not sleep"

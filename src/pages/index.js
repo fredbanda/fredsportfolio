@@ -37,8 +37,7 @@ export default function Home() {
             className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl
             sm:!text-3xl " />
             <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-            As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
-            Explore my latest projects and articles, showcasing my expertise in full stack web development.
+            Experienced Full Stack Principal Developer with a decade at The First Pitch, specializing in MERN, MEAN, MEVN, Serverless, LAMP, PERN, and Ruby on Rails stacks. Demonstrated proficiency in ASP.NET Core, Blazor, ASP.NET Web API, Java, Spring Boot, Python (Django/Flask), and a passion for GraphQL and Apollo. Adept at crafting user-friendly applications with both server and serverless architectures, utilizing SQL (MySQL, Postgres) and NoSQL (MongoDB) databases. Proven commitment to continuous learning, active contributor to open source projects on GitHub, and dedicated to mentoring others. Seeking to bring innovation and expertise to a dynamic web development team.
             </p>
             <div className="flex items-center self-start mt-2 lg:self-center">
               <Link href="/resume.pdf" target={"_blank"}

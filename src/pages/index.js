@@ -14,7 +14,9 @@ export default function Home() {
     <>
       <Head>
         <title>Fred Banda | Wed Dev Portfolio</title>
-        <meta name="description" content="Portfolio of work for Fred Banda" />
+        <meta name="description" content="Experienced web developer with 4 years of experience
+        building scallable app with Reactjs, Nodejs, Expressjs and MongoDB, Ruby on Rails Nextjs
+        PostgreSQL and MySQL, Angular,Python, Flask and Django" />
       </Head> 
       <TransitionEffect />
       

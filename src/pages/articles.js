@@ -115,7 +115,7 @@ const Articles = () => {
             A prompt is a user-inputted instruction or question that serves 
             as a starting point for the AI to generate responses or complete tasks."
            time="9 min read" 
-           link="/"
+           link="https://www.linkedin.com/pulse/getting-best-out-ai-harnessing-power-effective-prompt-fred-banda/?trackingId=rsC78UfBRua4MtprPGJTUQ%3D%3D"
            img={article1}
             />
             <FeaturedArticle 

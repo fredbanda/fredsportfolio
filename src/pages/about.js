@@ -45,8 +45,8 @@ const About = () => {
     </Head>
 
     <TransitionEffect />
-    <main className="flex w-full flex-col items-center justify-center my-12 dark:text-light">
-      <Layout className="pt-16">
+    <main className="flex w-full flex-col items-center justify-center my-12 dark:text-light mb-[-150px]">
+      <Layout className="pt-16 ">
       <AnimatedText text="Scallable Web Applications That Work"  className="text-7xl mb-16 lg:!text-7xl 
       sm:!text-6xl xs:!text-4xl sm:mb-8" />
       <div className="grid w-full grid-cols-8 gap-16 sm:gap-8 xl:items-center ">

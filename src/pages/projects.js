@@ -8,11 +8,13 @@ import { GithubIcon } from "@/components/icons";
 import project2 from "../../public/images/projects/CryptoLane.png";
 import project1 from "../../public/images/projects/jetsetter.jpg";
 import project3 from "../../public/images/projects/youtubelearn.jpg";
-import project4 from "../../public/images/projects/game.jpg";
+import project4 from "../../public/images/projects/game.png";
 import project5 from "../../public/images/projects/random.jpg";
 import project6 from "../../public/images/projects/domman.jpg";
 import eunnyai from "../../public/images/projects/eunnyai.jpg";
 import EunnyTech from "../../public/images/projects/eunnytech.jpg";
+import Validate from "../../public/images/projects/validate.png";
+import Invisiguard from "../../public/images/projects/invisiguard.png";
 import {motion} from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -153,17 +155,13 @@ const Projects = () => {
                 </div>
                 <div className="col-span-6 sm:col-span-12">                
                 <Project
-                   title="Let's Hunt the Ace"
-                   img={EunnyTech}
+                   title="Invoice Cheque Management"
+                   img={Validate}
                    summary="
-                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                   Lorem Ipsum has been the industry's standard dummy text ever since the 
-                   1500s, when an unknown printer took a galley of type and scrambled it 
-                   to make a type specimen book. It has survived not only five centuries, 
-                   but also the leap into electronic
+                Developed with Ruby on Rails backend, Nextjs on frontend and PostgreSQL, this app allows users to manage their invoices and cheques. It provides a user-friendly interface for creating, editing, and deleting invoices and cheques, as well as generating and downloading invoices and cheques in PDF format. The app also includes features for tracking payments and generating reports. You take an image of your check and populate invoices. An ambitious project with lots of potentials
                    "
-                   link="https://matchingace.netlify.app/"
-                   github="https://github.com/fredbanda/acematching.git"
+                   link="https://skill-validation-test.vercel.app/"
+                   github="https://github.com/fredbanda/skill-validation-test.git"
                    type="Project"
                    />
                 </div>
@@ -198,17 +196,14 @@ const Projects = () => {
                 </div>
                 <div className="col-span-6 sm:col-span-12">                
                 <Project
-                   title="Let's Hunt the Ace"
+                   title="Mizou Jewelry Store."
                    img={project4}
                    summary="
-                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                   Lorem Ipsum has been the industry's standard dummy text ever since the 
-                   1500s, when an unknown printer took a galley of type and scrambled it 
-                   to make a type specimen book. It has survived not only five centuries, 
-                   but also the leap into electronic
+                   Creating an ecommerce for a young entrepreneur for his jewelry business. 
+                   Built using Next.js 15 and React with TypeScript, it uses Tailwind CSS for. I used neon for the postgresql database. Zustand for state management, and NextAuth for authentication. The store consist of customer facing frontend and dashboard for the admin. 
                    "
-                   link="https://matchingace.netlify.app/"
-                   github="https://github.com/fredbanda/acematching.git"
+                   link="https://mizou-storefront.vercel.app/"
+                   github="https://github.com/fredbanda/mizou-storefront.git"
                    type="Project"
                    />
                 </div>
@@ -230,17 +225,13 @@ const Projects = () => {
                 </div>
                 <div className="col-span-6 sm:col-span-12">
                 <Project
-                   title="Random Picker"
-                   img={project5}
+                   title="Invisiguard Cybersecurity"
+                   img={Invisiguard}
                    summary="
-                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                   Lorem Ipsum has been the industry's standard dummy text ever since the 
-                   1500s, when an unknown printer took a galley of type and scrambled it 
-                   to make a type specimen book. It has survived not only five centuries, 
-                   but also the leap into electronic
+                   In today&apos;s digital landscape, online criminals constantly evolve their tactics, making businesses vulnerable to breaches and phishing scams. Invisiguard offers cutting-edge cybersecurity solutions, including phishing protection and penetration testing, to proactively defend your enterprise. Trust Invisiguard to secure your assets, ensure compliance, and build customer trust with robust, reliable protection.
                    "
-                   link="https://randomizefred.netlify.app"
-                   github="https://github.com/fredbanda/randompicker.git"
+                   link="https://invisiguard.vercel.app/"
+                   github="https://github.com/fredbanda/invisiguard.git"
                    type="Project"
                    />
                 </div>
